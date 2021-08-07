@@ -1,0 +1,206 @@
+/* --------------NAV-TAG-RULES------------------- */
+nav{
+    margin:0;
+    padding:0;    
+ }
+
+
+
+ /* --------------Nav-FLEX-CONTAINER-RULES------------------- */
+
+ .header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+ .list-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+.nav-item-0{
+justify-content: center;
+align-items: center;
+
+}
+
+.footer-nav-container .nav-item-1{
+ display:none;
+        
+}
+
+/* --------------Section------------------- */
+
+section{
+    margin:0;
+    padding:0;
+    align-items: center;
+    text-align: center;
+    }
+
+
+/* --------------SECTION FLEX-CONTAINER-RULES------------------- */
+.student-bio-container{
+ display: flex;
+ flex-direction: column;
+        }
+
+/* --------------MAIN-CONTENT-RULES------------------- */
+
+
+
+/* --------------MAIN-FLEX-CONTAINER-RULES------------------- */
+
+.section-h2{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.wrapper-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content:center;
+    grid-gap: 1rem;
+
+}
+
+.container{
+text-align:center;
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   }
+
+   .footer-nav-0{
+    margin-right: auto;
+     }
+
+     .nav-items{
+     list-style: none;
+     display: none;
+    }
+
+    .nav-items-5{
+        list-style: none;
+    }
+
+    .footer-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;  
+    }
+
+    .footer-nav-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    /* --------------Screen 768px------------------ */
+
+    @media only screen and (min-width:768px ){
+     /* --------------NAV-TAG-RULES------------------- */
+.header-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+}
+    
+.list-container{
+        display: flex;
+        flex-direction: row;
+ }
+
+ .list-container li{
+    padding: 0 20px;
+    list-style: none;
+}
+
+.footer-nav-container .nav-item-1{
+    display:none;
+        
+}
+/* --------------Section------------------- */
+
+.student-bio-container{
+    display: flex;
+    flex-direction: row;
+
+    }
+
+    /* --------------MAIN-FLEX-CONTAINER-RULES------------------- */
+    
+    .wrapper-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content:center;
+        grid-gap: 1rem;
+    
+    }
+    
+    .container{
+    text-align:center;
+    }
+
+    /* --------------Footer Nav------------------- */
+    .footer-nav-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    
+
+    }
+    /* --------------Screen 1024px------------------ */
+
+@media only screen and (min-width:1024px ){
+
+
+    
+    .list-container {
+        display: flex;
+       flex-direction: row;
+       justify-content:space-between;
+       }
+       
+       .nav-item-1{
+         margin-right: auto;
+       }
+       .nav-item-2,
+       .nav-item-3,
+       .nav-item-4{
+         padding: 0 20px;
+       }
+       
+       
+       .list-container li {
+         list-style: none;
+        }
+       
+       
+       .nav-item-0{
+        display: none;
+       }
+
+}
+    
+
