@@ -1,5 +1,5 @@
 /* --------------Screen 768px------------------ */
-@media (min-width:769px){
+@media (min-width:768px){
 
     .nav-header {
     display: flex;
@@ -56,6 +56,10 @@
     .nav-items-4{
     display: none;
     }
+
+    .nav-items{
+    display: list-item
+    }
     
     }
     
@@ -96,11 +100,8 @@
     .container{
     text-align: center;
     }
-        /* --------------FOOTER-NAV------------------- */
-        
-        }
-    
-    /* --------------FOOTER-NAV------------------- */
+       
+ /* --------------FOOTER-NAV------------------- */
     
     .footer-container {
     display: flex;  
@@ -123,6 +124,8 @@
     .nav-items-4{
     display: none;
      }
+
+    }
     
     
     
