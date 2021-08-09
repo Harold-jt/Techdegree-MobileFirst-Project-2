@@ -1,0 +1,130 @@
+/* --------------Screen 768px------------------ */
+@media (min-width:769px){
+
+    .nav-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }  
+    
+    .nav-list{
+    display:flex;
+    }
+    
+    ul > li{
+    margin: 5px;
+    }
+    
+    /* --------------BIO-RULES------------------- */
+    
+    .bio-container{
+    display: flex;
+    flex-direction: row;
+    }
+    
+    /* --------------MAIN-CONTENT-RULES------------------- */
+    
+    .wrapper-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content:center;
+    grid-gap: 1rem;
+    }
+        
+    .container{
+    text-align: center;
+    }
+    /* --------------FOOTER-NAV------------------- */
+    .footer-container {
+    display: flex;  
+    flex-direction:row;
+    }
+        
+    .footer-nav{
+    display: flex;  
+    flex-direction:row;
+    }
+    
+    .name{
+    margin-right: auto;
+    }
+    
+    ul > li{
+    margin: 5px;
+    }
+    
+    .nav-items-4{
+    display: none;
+    }
+    
+    }
+    
+    /* --------------Screen 1024px------------------ */
+    
+    @media (min-width:1024px){
+    .nav-header {
+    display: flex;  
+    flex-direction:row;
+    }
+    
+    .nav-list{
+    display: flex;  
+    flex-direction:row;
+    
+    }
+    
+    .student-name{
+    margin-right: auto;
+    }
+    
+    /* --------------BIO-RULES------------------- */
+    
+    .bio-container{
+    display: flex;
+    flex-direction: row;
+    }
+    
+    /* --------------MAIN-CONTENT-RULES------------------- */
+    
+    .wrapper-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content:center;
+    grid-gap: 1rem;
+    }
+            
+    .container{
+    text-align: center;
+    }
+        /* --------------FOOTER-NAV------------------- */
+        
+        }
+    
+    /* --------------FOOTER-NAV------------------- */
+    
+    .footer-container {
+    display: flex;  
+    flex-direction:row;
+     }
+        
+    .footer-nav{
+    display: flex;  
+    flex-direction:row;
+    }
+        
+    .name{
+    margin-right: auto;
+    }
+    
+    ul > li{
+    margin: 5px;
+    }
+    
+    .nav-items-4{
+    display: none;
+     }
+    
+    
+    
+    
+    

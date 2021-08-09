@@ -1,206 +1,187 @@
-/* --------------NAV-TAG-RULES------------------- */
-nav{
-    margin:0;
-    padding:0;    
- }
+/* --------------NAVBAR-RULES------------------- */
 
-
-
- /* --------------Nav-FLEX-CONTAINER-RULES------------------- */
-
- .header-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+.student-name {
+    font-size: 1.35em;
+    margin: 0;
+    text-transform: uppercase;
     }
-
- .list-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    }
-
-.nav-item-0{
-justify-content: center;
-align-items: center;
-
-}
-
-.footer-nav-container .nav-item-1{
- display:none;
-        
-}
-
-/* --------------Section------------------- */
-
-section{
-    margin:0;
-    padding:0;
-    align-items: center;
+    
+    .student-name,
+    .nav-list  {
     text-align: center;
+    display: block;
+    padding: 10px 15px;
     }
-
-
-/* --------------SECTION FLEX-CONTAINER-RULES------------------- */
-.student-bio-container{
- display: flex;
- flex-direction: column;
-        }
-
-/* --------------MAIN-CONTENT-RULES------------------- */
-
-
-
-/* --------------MAIN-FLEX-CONTAINER-RULES------------------- */
-
-.section-h2{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-
-
-
-.wrapper-grid{
+    
+    .nav-list{
+    margin-top: 5px;
+    font-size: .95em;
+    text-transform: uppercase;
+    }
+    
+    ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+    
+    ul > li{
+    margin-top: 5px;
+    }
+    
+    /* --------------BIO-RULES------------------- */
+    
+    
+    .bio-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    /* --------------MAIN-HEADING------------------- */
+    
+    .section-h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    /* --------------MAIN-CONTENT-RULES------------------- */
+    
+    .wrapper-grid{
     display: grid;
     grid-template-columns: 1fr;
     justify-content:center;
     grid-gap: 1rem;
+    }
+    
+    .container{
+    text-align: center;
+    }
+    
+    
+    /* --------------Footer-INFO------------------- */
+    
+    .footer-info{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+     /* --------------FOOTER-NAV------------------- */
+    
+     .footer-container {
+    display: flex;  
+    flex-direction:row;
+    }
+        
+    .footer-nav{
+    display: flex;  
+    flex-direction:row;
+    }
+        
+    .name{
+    margin-right: auto;
+    }
+    
+    .nav-items{
+    display: none;
+    }
+    
+/* --------------NAVBAR-RULES------------------- */
 
-}
-
-.container{
-text-align:center;
-}
-
-.footer-info{
+.student-name {
+    font-size: 1.35em;
+    margin: 0;
+    text-transform: uppercase;
+    }
+    
+    .student-name,
+    .nav-list  {
+    text-align: center;
+    display: block;
+    padding: 10px 15px;
+    }
+    
+    .nav-list{
+    margin-top: 5px;
+    font-size: .95em;
+    text-transform: uppercase;
+    }
+    
+    ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+    
+    ul > li{
+    margin-top: 5px;
+    }
+    
+    /* --------------BIO-RULES------------------- */
+    
+    
+    .bio-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    }
     
-   }
-
-   .footer-nav-0{
-    margin-right: auto;
-     }
-
-     .nav-items{
-     list-style: none;
-     display: none;
-    }
-
-    .nav-items-5{
-        list-style: none;
-    }
-
-    .footer-nav{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;  
-    }
-
-    .footer-nav-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-
-    /* --------------Screen 768px------------------ */
-
-    @media only screen and (min-width:768px ){
-     /* --------------NAV-TAG-RULES------------------- */
-.header-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    /* --------------MAIN-HEADING------------------- */
     
-}
-    
-.list-container{
-        display: flex;
-        flex-direction: row;
- }
-
- .list-container li{
-    padding: 0 20px;
-    list-style: none;
-}
-
-.footer-nav-container .nav-item-1{
-    display:none;
-        
-}
-/* --------------Section------------------- */
-
-.student-bio-container{
+    .section-h2{
     display: flex;
-    flex-direction: row;
-
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     }
-
-    /* --------------MAIN-FLEX-CONTAINER-RULES------------------- */
+    
+    /* --------------MAIN-CONTENT-RULES------------------- */
     
     .wrapper-grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content:center;
-        grid-gap: 1rem;
-    
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content:center;
+    grid-gap: 1rem;
     }
     
     .container{
-    text-align:center;
+    text-align: center;
     }
-
-    /* --------------Footer Nav------------------- */
-    .footer-nav-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
+    
+    
+    /* --------------Footer-INFO------------------- */
+    
+    .footer-info{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     }
-
     
-
+     /* --------------FOOTER-NAV------------------- */
+    
+     .footer-container {
+    display: flex;  
+    flex-direction:row;
     }
-    /* --------------Screen 1024px------------------ */
-
-@media only screen and (min-width:1024px ){
-
-
+        
+    .footer-nav{
+    display: flex;  
+    flex-direction:row;
+    }
+        
+    .name{
+    margin-right: auto;
+    }
     
-    .list-container {
-        display: flex;
-       flex-direction: row;
-       justify-content:space-between;
-       }
-       
-       .nav-item-1{
-         margin-right: auto;
-       }
-       .nav-item-2,
-       .nav-item-3,
-       .nav-item-4{
-         padding: 0 20px;
-       }
-       
-       
-       .list-container li {
-         list-style: none;
-        }
-       
-       
-       .nav-item-0{
-        display: none;
-       }
-
-}
+    .nav-items{
+    display: none;
+    }
     
-
+        
