@@ -1,3 +1,7 @@
+
+ul > li{
+margin: 5px;
+}
 /* --------------NAVBAR-RULES------------------- */
 
 .student-name {
@@ -25,8 +29,8 @@
     list-style: none;
     }
     
-    ul > li{
-    margin: 5px;
+    .nav-list > .nav-item{
+    margin: 40px;
     }
     
     /* --------------BIO-RULES------------------- */
