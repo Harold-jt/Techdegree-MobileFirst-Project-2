@@ -11,9 +11,7 @@
     display:flex;
     }
     
-    ul > li{
-    margin: 5px;
-    }
+    
     
     /* --------------BIO-RULES------------------- */
     
@@ -43,15 +41,15 @@
     .footer-nav{
     display: flex;  
     flex-direction:row;
+    font-size: .95em;
+    text-transform: uppercase;
     }
     
     .name{
     margin-right: auto;
     }
     
-    ul > li{
-    margin: 5px;
-    }
+   
     
     .nav-items-4{
     display: none;
@@ -59,6 +57,7 @@
 
     .nav-items{
     display: list-item
+    
     }
     
     }
@@ -117,9 +116,6 @@
     margin-right: auto;
     }
     
-    ul > li{
-    margin: 5px;
-    }
     
     .nav-items-4{
     display: none;
