@@ -18,7 +18,25 @@
     .bio-container{
     display: flex;
     flex-direction: row;
+    background: #F8F8F8 no-repeat fixed center;
+    height: 300px;
+   
     }
+
+    img{
+      justify-content: center;
+      align-items: center;  
+      margin-left: 5px;  
+      margin-bottom: 50px;
+      margin-right: 10px;
+     }
+
+     .bio-info{
+      text-align: left;
+      font-size: 20px;
+      margin-right: 15px;
+      margin-left: 20px;
+       }
     
     /* --------------MAIN-CONTENT-RULES------------------- */
     
@@ -32,7 +50,17 @@
     .container{
     text-align: center;
     }
+
+    /* --------------Footer-INFO------------------- */
+    .p-info{
+      text-align: center;
+      padding: 0 200px 0 200px;
+     }
     /* --------------FOOTER-NAV------------------- */
+
+    
+
+
     .footer-container {
     display: flex;  
     flex-direction:row;
@@ -79,13 +107,35 @@
     .student-name{
     margin-right: auto;
     }
+
+    .nav-item{
+      font-size: 1.25em;
+      text-transform: uppercase;
+      }
     
     /* --------------BIO-RULES------------------- */
     
     .bio-container{
     display: flex;
     flex-direction: row;
+    background: #F8F8F8 no-repeat fixed center;
+    background-size: 200px;
     }
+
+    .bio-info{
+      text-align: left;
+      margin-left: 20px;
+      margin-right: 200px;
+      font-size: 25px;
+      
+   
+   }
+
+   img{
+    margin-right: 75px;  
+   }
+
+    
     
     /* --------------MAIN-CONTENT-RULES------------------- */
     
@@ -99,6 +149,12 @@
     .container{
     text-align: center;
     }
+
+    /* --------------Footer-INFO------------------- */
+    .p-info{
+      text-align: center;
+      padding: 0 200px 0 200px;
+     }
        
  /* --------------FOOTER-NAV------------------- */
     
@@ -120,6 +176,17 @@
     .nav-items-4{
     display: none;
      }
+
+     .name {
+      font-size: 1.35em;
+      text-transform: uppercase;
+      }
+      
+      
+      .nav-items{
+      font-size: 1.25em;
+      text-transform: uppercase;
+      }
 
     }
     
